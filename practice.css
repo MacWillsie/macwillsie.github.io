@@ -172,17 +172,45 @@ opacity: 0.8;
   background-color: beige;
   width: 100vw;
   margin-bottom: 0px;
+  margin-top:0px;
 }
 .box{
   background-color: rgb(249, 118, 118);
   width: 100vw;
   height: 400px;
   margin-top: 0px;
+  margin-bottom:0px;
 }
 .box2{
+    display: flex;
   background-color: rgb(190, 129, 247);
   width: 100vw;
-  height: 600px;
   margin-top: 0px;
   margin-bottom: 0px;
+align-items: center;
+padding: 20px;
+}
+
+img.climate{
+  margin-left: 5px;
+  height: 400px;
+  outline: 4px solid black;
+}
+.help{
+text-align: center;
+font-size:500%;
+}
+.circle{
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  background-color: rgb(255, 0, 0);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+.circle2{
+  display:flex;
+  justify-content:right;
 }
