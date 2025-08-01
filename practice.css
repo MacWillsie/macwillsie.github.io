@@ -302,3 +302,8 @@ width: 1000px;
   margin-right: 100px;
   border-radius: 20px;
 }
+.bad{
+  background-color: aquamarine;
+  border-radius: 10px;
+  font-size: large;
+}
