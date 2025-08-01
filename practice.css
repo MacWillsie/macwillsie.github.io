@@ -103,6 +103,7 @@ a:hover{
 button:hover{
   color: black;
   transform: scale(1.2);
+  background-color: rgb(255, 255, 255);
 }
 p.paragraph{
   font-size:xx-large;
@@ -209,8 +210,83 @@ font-size:500%;
   bottom: 20px;
   right: 20px;
   text-align: center;
+  outline: 2px solid black
+}
+.circle:hover {
+  background-color: rgb(255, 118, 118);
 }
 .circle2{
   display:flex;
   justify-content:right;
+}
+.buttons{
+  display: flex;
+  justify-content:center;
+  margin-top: 400px;
+  margin-bottom: 50px;
+  height: 100px;
+}
+.signup{
+  width:150px;
+  font-size: xx-large;
+  background-color: rgb(190, 129, 248);
+  outline: 3px solid black;
+  border-radius: 4px;
+  box-shadow:0 8px 20px black;
+}
+.signin{
+  width:150px;
+  font-size: xx-large;
+  background-color: rgb(129, 248, 161);
+  outline: 3px solid black;
+  border-radius: 4px;
+  margin-left: 50px;
+  box-shadow:0 8px 20px black;
+}
+.buttons2{
+  display: flex;
+  justify-content:center;
+  height: 100px;
+  margin-top: 50px;
+}
+.signup2{
+  width: 200px;
+  margin-right: 25px;
+  border-radius: 4px;
+  outline: 2px solid black;
+  color:rgb(51, 132, 105);
+  background-color: rgb(234, 212, 255);
+  font-size: xx-large;
+  box-shadow:0 8px 20px black;
+}
+.signin2{
+  width:200px;
+  outline: 2px solid black;
+  border-radius: 4px;
+  background-color: rgb(234, 212, 255);
+  color:rgb(51, 132, 105);
+  font-size: xx-large;
+  box-shadow:0 8px 20px black;
+}
+.aboutcolor{
+  background-image: url(hands.webp);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
+.textcolorabout{
+  color:rgb(0, 0, 0);
+border-radius: 10px;
+background-color: rgb(60, 250, 244);
+opacity: 0.8;
+width: 1000px;
+}
+.textcolorabout2{
+  display: flex;
+  justify-content:center;
+}
+.top{
+  background-color: aliceblue;
+  width:99vw;
+  border-radius: 10px;
 }
