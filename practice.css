@@ -290,3 +290,15 @@ width: 1000px;
   width:99vw;
   border-radius: 10px;
 }
+.informationparagraph2{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  width: 100vw;
+  background-color: rgb(250, 197, 92);
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+}
